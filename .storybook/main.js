@@ -19,6 +19,7 @@ module.exports = {
       "@components": path.join(__dirname, "../src/components"),
       "@constants": path.join(__dirname, "../src/constants"),
       "@hooks": path.join(__dirname, "../src/hooks"),
+      "@redux": path.join(__dirname, "../src/redux"),
       "@styles": path.join(__dirname, "../src/styles"),
       "@utils": path.join(__dirname, "../src/utils"),
       "@views": path.join(__dirname, "../src/views"),

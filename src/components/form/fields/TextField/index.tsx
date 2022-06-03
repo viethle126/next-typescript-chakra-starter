@@ -15,8 +15,8 @@ const TextField = ({
   placeholder,
   onChange = (...args: any) => {},
   autoComplete = "off",
-  className,
   disabled,
+  className,
 }: any) => (
   <Field name={name}>
     {({ field, form }) => {
@@ -34,11 +34,9 @@ const TextField = ({
             label={label}
             placeholder={placeholder}
             onChange={hookOnChange(field, onChange)}
-            error={!!touched && !!error}
-            helperText={touched && error ? error : ""}
             autoComplete={autoComplete}
-            className={className}
             disabled={!!disabled}
+            className={className}
             borderColor="black"
             color="#5865F2"
           />

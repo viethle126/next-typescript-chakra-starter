@@ -20,6 +20,7 @@
       "@components/*": ["components/*"],
       "@constants/*": ["constants/*"],
       "@hooks/*": ["hooks/*"],
+      "@redux/*": ["redux/*"],
       "@styles/*": ["styles/*"],
       "@utils/*": ["utils/*"],
       "@views/*": ["views/*"]

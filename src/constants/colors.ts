@@ -1,4 +1,4 @@
-export default {
+const colors = {
   primary: "#3f51b5",
   primaryLight: "#757de8",
   primaryDark: "#002984",
@@ -9,3 +9,5 @@ export default {
   black50: "rgba(0, 0, 0, 0.5)",
   white: "#fff",
 }
+
+export default colors
